@@ -15,7 +15,7 @@ int main()
     int sum = 0;
     int idxBegin = 0;
     int bestSum = 0;
-    int bestIdxBegin = 0;
+    int bestIdxBegin = 1;
     int bestIdxEnd = 0;
     for (int i=0; i<lengthOfArray; i++) {
         if (sum < 0) {
